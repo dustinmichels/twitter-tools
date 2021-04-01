@@ -1,0 +1,11 @@
+# project
+keys.py
+
+# python
+venv/
+.ipynb_checkpoints/
+
+# junk
+classifiers/
+website/
+app.py

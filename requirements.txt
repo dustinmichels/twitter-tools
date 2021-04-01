@@ -1,0 +1,11 @@
+tweepy==3.10.0
+jupyterlab
+pandas
+tqdm
+geopy
+
+# --- dev ---
+mypy
+rope
+black
+pylint
