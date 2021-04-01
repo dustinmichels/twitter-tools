@@ -7,5 +7,4 @@ venv/
 
 # junk
 classifiers/
-website/
 app.py
