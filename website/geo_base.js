@@ -164,7 +164,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "CAN.geojson",
-        count: 30,
       },
       geometry: {
         type: "MultiPolygon",
@@ -2813,7 +2812,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "USA.geojson",
-        count: 689,
       },
       geometry: {
         type: "MultiPolygon",
@@ -3891,7 +3889,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "CHL.geojson",
-        count: 1,
       },
       geometry: {
         type: "MultiPolygon",
@@ -4204,7 +4201,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "COL.geojson",
-        count: 1,
       },
       geometry: {
         type: "Polygon",
@@ -4381,7 +4377,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "BRA.geojson",
-        count: 4,
       },
       geometry: {
         type: "Polygon",
@@ -5165,7 +5160,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "ARM.geojson",
-        count: 1,
       },
       geometry: {
         type: "Polygon",
@@ -5547,7 +5541,7 @@ var geoData = {
         abbrev: "Ven.",
         postal: "VE",
         formal_en: "Bolivarian Republic of Venezuela",
-        formal_fr: "Rep\u00fablica Bolivariana de Venezuela",
+        formal_fr: "República Bolivariana de Venezuela",
         note_adm0: null,
         note_brk: null,
         name_sort: "Venezuela, RB",
@@ -6643,7 +6637,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "URY.geojson",
-        count: 1,
       },
       geometry: {
         type: "Polygon",
@@ -7429,7 +7422,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "IRN.geojson",
-        count: 1,
       },
       geometry: {
         type: "Polygon",
@@ -10269,7 +10261,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "QAT.geojson",
-        count: 1,
       },
       geometry: {
         type: "Polygon",
@@ -10932,7 +10923,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "TUR.geojson",
-        count: 1,
       },
       geometry: {
         type: "MultiPolygon",
@@ -11082,7 +11072,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "TWN.geojson",
-        count: 1,
       },
       geometry: {
         type: "Polygon",
@@ -12153,7 +12142,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "BEN.geojson",
-        count: 1,
       },
       geometry: {
         type: "Polygon",
@@ -12208,10 +12196,10 @@ var geoData = {
         subunit: "Ivory Coast",
         su_a3: "CIV",
         brk_diff: 0,
-        name: "C\u00f4te d'Ivoire",
-        name_long: "C\u00f4te d'Ivoire",
+        name: "Côte d'Ivoire",
+        name_long: "Côte d'Ivoire",
         brk_a3: "CIV",
-        brk_name: "C\u00f4te d'Ivoire",
+        brk_name: "Côte d'Ivoire",
         brk_group: null,
         abbrev: "I.C.",
         postal: "CI",
@@ -12219,7 +12207,7 @@ var geoData = {
         formal_fr: "Republic of Cote D'Ivoire",
         note_adm0: null,
         note_brk: null,
-        name_sort: "C\u00f4te d'Ivoire",
+        name_sort: "Côte d'Ivoire",
         name_alt: null,
         mapcolor7: 4,
         mapcolor8: 6,
@@ -13753,7 +13741,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "KEN.geojson",
-        count: 1,
       },
       geometry: {
         type: "Polygon",
@@ -16874,7 +16861,7 @@ var geoData = {
         abbrev: "Togo",
         postal: "TG",
         formal_en: "Togolese Republic",
-        formal_fr: "R\u00e9publique Togolaise",
+        formal_fr: "République Togolaise",
         note_adm0: null,
         note_brk: null,
         name_sort: "Togo",
@@ -17529,7 +17516,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "AUT.geojson",
-        count: 4,
       },
       geometry: {
         type: "Polygon",
@@ -17643,7 +17629,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "BEL.geojson",
-        count: 2,
       },
       geometry: {
         type: "Polygon",
@@ -17735,7 +17720,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "BGR.geojson",
-        count: 1,
       },
       geometry: {
         type: "Polygon",
@@ -18278,7 +18262,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "CHE.geojson",
-        count: 5,
       },
       geometry: {
         type: "Polygon",
@@ -18490,7 +18473,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "DNK.geojson",
-        count: 7,
       },
       geometry: {
         type: "MultiPolygon",
@@ -18597,7 +18579,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "DEU.geojson",
-        count: 17,
       },
       geometry: {
         type: "Polygon",
@@ -18732,7 +18713,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "ESP.geojson",
-        count: 1,
       },
       geometry: {
         type: "Polygon",
@@ -18860,7 +18840,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "EST.geojson",
-        count: 2,
       },
       geometry: {
         type: "Polygon",
@@ -18954,7 +18933,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "FIN.geojson",
-        count: 5,
       },
       geometry: {
         type: "Polygon",
@@ -19069,7 +19047,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "FRA.geojson",
-        count: 6,
       },
       geometry: {
         type: "MultiPolygon",
@@ -19230,7 +19207,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "GBR.geojson",
-        count: 69,
       },
       geometry: {
         type: "MultiPolygon",
@@ -19369,7 +19345,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "GRC.geojson",
-        count: 1,
       },
       geometry: {
         type: "MultiPolygon",
@@ -19731,7 +19706,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "IRL.geojson",
-        count: 1,
       },
       geometry: {
         type: "Polygon",
@@ -19917,7 +19891,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "ITA.geojson",
-        count: 1,
       },
       geometry: {
         type: "MultiPolygon",
@@ -20754,7 +20727,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "NLD.geojson",
-        count: 10,
       },
       geometry: {
         type: "Polygon",
@@ -20845,7 +20817,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "NOR.geojson",
-        count: 6,
       },
       geometry: {
         type: "MultiPolygon",
@@ -21024,7 +20995,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "POL.geojson",
-        count: 4,
       },
       geometry: {
         type: "Polygon",
@@ -21146,7 +21116,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "PRT.geojson",
-        count: 1,
       },
       geometry: {
         type: "Polygon",
@@ -21376,7 +21345,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "RUS.geojson",
-        count: 1,
       },
       geometry: {
         type: "MultiPolygon",
@@ -22426,7 +22394,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "SWE.geojson",
-        count: 21,
       },
       geometry: {
         type: "Polygon",
@@ -22717,7 +22684,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "AUS.geojson",
-        count: 14,
       },
       geometry: {
         type: "MultiPolygon",
@@ -23110,7 +23076,7 @@ var geoData = {
         abbrev: "New C.",
         postal: "NC",
         formal_en: "New Caledonia",
-        formal_fr: "Nouvelle-Cal\u00e9donie",
+        formal_fr: "Nouvelle-Calédonie",
         note_adm0: "Fr.",
         note_brk: null,
         name_sort: "New Caledonia",
@@ -23238,7 +23204,6 @@ var geoData = {
         tiny: -99,
         homepart: 1,
         filename: "NZL.geojson",
-        count: 4,
       },
       geometry: {
         type: "MultiPolygon",

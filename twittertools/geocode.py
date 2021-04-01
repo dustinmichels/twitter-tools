@@ -38,7 +38,7 @@ def load_friends_data():
     #         some_friends = json.load(f)
     #     friends += some_friends
 
-    fp = os.path.join(DATA_PATH, "twitter_friends", "friends_Dustin_Michels.json")
+    fp = os.path.join(base, "friends_Dustin_Michels.json")
     with open(fp) as f:
         friends = json.load(f)
 
@@ -48,11 +48,12 @@ def load_friends_data():
 
 
 @lru_cache
-def load_city_data():
+def load_city_data(lowercase=True):
     df_cities = pd.read_csv(os.path.join(DATA_PATH, "geocode", "worldcities.csv"))
     df_cities = df_cities.sort_values(by="population", ascending=False)
-    for key in ["city", "city_ascii", "country", "iso2", "iso3", "admin_name"]:
-        df_cities[key] = df_cities[key].str.lower()
+    if lowercase:
+        for key in ["city", "city_ascii", "country", "iso2", "iso3", "admin_name"]:
+            df_cities[key] = df_cities[key].str.lower()
     return df_cities
 
 
@@ -125,7 +126,7 @@ def geocode_simplemaps(location):
 
 
 def lookup_index(i):
-    df_cities = load_city_data()
+    df_cities = load_city_data(lowercase=False)
     try:
         row = df_cities.loc[i]
         return row["city"], row["country"]
