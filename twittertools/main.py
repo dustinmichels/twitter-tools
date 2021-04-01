@@ -5,9 +5,7 @@ import tweepy
 
 from keys import access_token, access_token_secret, consumer_key, consumer_secret
 
-# USER = "Dustin_Michels"
-# USER = "jaketapper"
-USER = "DaveMichels"
+USER = "Dustin_Michels"
 
 
 def create_api():

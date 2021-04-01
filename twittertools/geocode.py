@@ -26,16 +26,22 @@ hard_coded = {
 }
 
 
+@lru_cache
 def load_friends_data():
     # Load some friends JSON data
     base = os.path.join(DATA_PATH, "twitter_friends")
-    print(base)
-    friends = []
-    for filename in os.listdir(base):
-        fp = os.path.join(base, filename)
-        with open(fp) as f:
-            some_friends = json.load(f)
-        friends += some_friends
+
+    # friends = []
+    # for filename in os.listdir(base):
+    #     fp = os.path.join(base, filename)
+    #     with open(fp) as f:
+    #         some_friends = json.load(f)
+    #     friends += some_friends
+
+    fp = os.path.join(DATA_PATH, "twitter_friends", "friends_Dustin_Michels.json")
+    with open(fp) as f:
+        friends = json.load(f)
+
     # extract relevant info
     data = [(f["screen_name"], f["location"]) for f in friends]
     return data
